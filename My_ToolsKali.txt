@@ -1,0 +1,25 @@
+#!/bin/bash
+sudo apt-get -y install kali-tools-database              # Menu de herramientas de assessment
+sudo apt-get -y install kali-tools-exploitation          # Herramientas de exploits
+sudo apt-get -y install kali-tools-fuzzing               # fuzzing attacks tools
+sudo apt-get -y install kali-tools-information-gathering # information gathering menu
+sudo apt-get -y install kali-tools-passwords             # password cracking tools menu
+sudo apt-get -y install kali-tools-post-exploitation     # post exploitation tools menu
+sudo apt-get -y install kali-tools-reporting             # reporting tools menu
+sudo apt-get -y install kali-tools-reverse-engineering   # reverse engineering menu
+sudo apt-get -y install kali-tools-sniffing-spoofing     # sniffing & spoofing tools menu
+sudo apt-get -y install kali-tools-social-engineering    # social engineering tools menu
+sudo apt-get -y install kali-tools-top10                 # top 10 tools
+sudo apt-get -y install kali-tools-vulnerability         # vulnerability analysis menu
+sudo apt-get -y install kali-tools-web                   # webapp assessment tools menu
+sudo apt-get -y install kali-tools-windows-resources     # Windows resources
+echo -e "Instalando Git....\n" 
+echo -e "Instalando Git....\n" 
+echo -e "Instalando Git....\n" 
+sudo apt install git
+git --version
+echo -e "GIT INSTALADO!\n" 
+echo -e "Creando carpeta de trabajo\n" 
+mkdir /home/jose-ineco/Documents/burp_docs
+echo -e "guardando SecLists....\n" 
+git clone https://github.com/danielmiessler/SecLists.git /home/jose-ineco/Documents/burp_docs
