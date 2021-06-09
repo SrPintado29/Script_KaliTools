@@ -20,6 +20,6 @@ sudo apt install git
 git --version
 echo -e "GIT INSTALADO!\n" 
 echo -e "Creando carpeta de trabajo\n" 
-mkdir /home/jose-ineco/Documents/burp_docs
+mkdir /home/Documents/burp_docs
 echo -e "guardando SecLists....\n" 
-git clone https://github.com/danielmiessler/SecLists.git /home/jose-ineco/Documents/burp_docs
+git clone https://github.com/danielmiessler/SecLists.git /home/Documents/burp_docs
